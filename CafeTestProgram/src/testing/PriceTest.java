@@ -16,7 +16,7 @@ public class PriceTest {
 		order.add(new Product("cupcake", 2.3, 1));
 		
 		double output = order.getTotalPrice();
-		Assert.assertEquals(4.00, output, 1);
+		Assert.assertEquals(5.45, output, 1);
 	}
 
 }

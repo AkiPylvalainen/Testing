@@ -15,7 +15,7 @@ public class AmountTest {
 		order.add(new Product("cupcake", 2.3, 5));
 		
 		int output = order.getTotalAmount();
-		assertEquals(9, output);
+		assertEquals(12, output);
 	}
 
 }
